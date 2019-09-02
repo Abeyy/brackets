@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <card> </card>
+        <Card teamName="CLG"> </Card>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

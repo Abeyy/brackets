@@ -1,0 +1,12 @@
+.card-component {
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+.team-logo-container, .team-metadata-container {
+  display: inline-block;
+}
+
+.team-metadata-container h1 {
+  font-size: 24px;
+}
