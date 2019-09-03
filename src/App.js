@@ -1,25 +1,11 @@
 import React from 'react';
 import './App.css';
-
-import Card from './Card/Card.jsx';
+import Bracket from './Bracket/Bracket.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Card teamName="CLG"> </Card>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Bracket testProp='hello'/>
     </div>
   );
 }

@@ -1,12 +1,46 @@
 .card-component {
-  border: 1px solid white;
-  padding: 10px 20px;
+  border: 1px solid gray;
+  max-height: 200px;
+  max-width: 350px;
+  border-radius: 5px;
 }
 
-.team-logo-container, .team-metadata-container {
+.team-logo-container {
+  background-color: black;
+  padding: 10px;
+  /* position: relative;
+  top: 50%;
+  transform: translateY(25%); */
+}
+
+.team-logo-container img {
+  height: 50px;
+  width: 50px;
+}
+
+.team-logo-container, .team-metadata-container,
+.first-round-bracket, .second-round-bracket,
+.third-round-bracket {
   display: inline-block;
+  vertical-align: top;
+}
+
+.team-metadata-container {
+  margin: 10px 25px;
 }
 
 .team-metadata-container h1 {
   font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.team-metadata-container h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.second-round-bracket {
+  height: 75%;
 }
