@@ -4,6 +4,7 @@
   width: 350px;
   border-radius: 5px;
   position: relative;
+  cursor: pointer;
 }
 
 .team-logo-container {
