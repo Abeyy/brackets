@@ -1,3 +1,32 @@
+.bracket-component {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.bracket-heading {
+  text-align: center;
+}
+
+.bracket-round-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
 .card-container {
-  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.single-bracket-card {
+  position: relative;
+}
+
+.single-bracket-card[iswinner="0"] {
+  background-color: lightgray;
+}
+.first-round-bracket, .second-round-bracket,
+.third-round-bracket, .fourth-round-bracket {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 20px;
 }

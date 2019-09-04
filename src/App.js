@@ -5,7 +5,7 @@ import Bracket from './Bracket/Bracket.jsx';
 function App() {
   return (
     <div className="App">
-      <Bracket testProp='hello'/>
+      <Bracket />
     </div>
   );
 }

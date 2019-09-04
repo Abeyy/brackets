@@ -1,0 +1,46 @@
+.info-card-component {
+  background: white;
+  position: absolute;
+  top: -25px;
+  right: -250px;
+  
+  padding: 10px;
+  
+  z-index: 2;
+  
+  border: 1px solid gray;
+  border-radius: 5px;
+  
+  min-height: 250px;
+  width: 325px;
+}
+
+.info-card-name {
+  text-decoration: underline;
+}
+
+.roster-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.player-info-container {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.team-info-container {
+  padding: 10px;
+}
+
+.team-info-container i{
+  font-weight: 600;
+}
+
+.player-info-container, .team-info-container {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}

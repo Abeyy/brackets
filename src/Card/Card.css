@@ -1,16 +1,19 @@
 .card-component {
   border: 1px solid gray;
   max-height: 200px;
-  max-width: 350px;
+  width: 350px;
   border-radius: 5px;
+  position: relative;
 }
 
 .team-logo-container {
   background-color: black;
   padding: 10px;
-  /* position: relative;
-  top: 50%;
-  transform: translateY(25%); */
+}
+
+.team-logo-container {
+  height: auto;
+  width: 50px;
 }
 
 .team-logo-container img {
@@ -19,10 +22,8 @@
 }
 
 .team-logo-container, .team-metadata-container,
-.first-round-bracket, .second-round-bracket,
-.third-round-bracket {
+.winner-display {
   display: inline-block;
-  vertical-align: top;
 }
 
 .team-metadata-container {
@@ -41,6 +42,25 @@
   margin: 0;
 }
 
-.second-round-bracket {
-  height: 75%;
+.team-metadata-container.small-container {
+  vertical-align: top;
+}
+
+.winner-banner {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+h1.team-name-small {
+  font-size: 12px;
+}
+
+.winner-display {
+  position: absolute;
+  right: 4px;
+  top: 0px;
+  font-size: 12px;
 }
